@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: lightgray;
+  color: #000000;
+}
+
+.whatsapp {
+  background: green;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+    background: #000000;
+    color: white;
+  }
+
+  .gmail {
+    background: red;
+    color: white;
+  }
+
+.content {
+  margin-left: 45px;
+  font-size: 30px;
+}
+
+.header {
+    background-image: url("./img/ai.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+  }
+  
+  #navbar {
+    height: 55px;
+    overflow: hidden;
+    background-color: #1C2833;
+  }
+  
+  #navbar a {
+    display: inline;
+    float: right;
+    color: lightskyblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  #navbar a:hover {
+    color: white;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  #textQuien {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  footer img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 2.5px;
+  }
+
+  #footerQuien {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  #cardQuien {
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  #footer {
+    width: 100%;
+    height: 150px;
+    color: lightskyblue;
+    background-color: #1C2833;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    bottom: 0;
+    margin-top: 10% !important;
+  }
+
+  #footer h6 {
+    font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 24px;
+  }
+
+  #portafolioImg img {
+    width: 200px;
+    height: 100px;
+  }
+
+  #portafolio {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #cardMuestra {
+    margin: 20px;
+    border-radius: 10px;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  #cardMuestra a {
+    width: 70px;
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  form {
+    width: 80%;
+    height: auto;
+    align-self: center;
+  }
+
+  #descripcion p {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+  }
+
+  #btnCerrar {
+    border-radius: 60px;
+  }
+
+  #foto {
+    width: 200px;
+    height: 200px;
+    margin-left: 70%;
+  }
+  

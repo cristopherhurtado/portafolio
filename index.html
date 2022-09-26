@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Portafolio C.H.G.</title>
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <div class="header">
+        <h3>Cristopher Hurtado González</h3>
+        <p>Developer Front End.</p>
+    </div>
+    <div id="navbar">
+       <a href="https://drive.google.com/file/d/14dfJwmHJQh34rEmSCG68UMFKh3X4Freo/view?usp=sharing">C.V</a>
+       <a href="#porta">Portafolio</a>
+       <a href="#">Inicio</a>
+    </div>
+
+      <!--CONTACTO LATERAL-->
+      <div class="icon-bar"> 
+        <a href="https://api.whatsapp.com/send?phone=56961604775&text=Hola%20necisito%20comunicarme%20con%20usted%20Cristopher"
+        class="whatsapp"><i class="fa fa-whatsapp"></i></a> 
+        <a href="mailto:cristopherhurtado@gmail.com" class="gmail"><i class="fa fa-envelope-o"></i></a>
+        <a href="https://www.linkedin.com/in/cristopher-hurtado-gonz%C3%A1lez/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/cristopherhurtado" class="github"><i class="fa fa-github"></i></a>
+      </div>
+      
+      <div class="content">
+
+            <!--QUIEN SOY-->
+            <div class="w3-card-4" id="cardQuien">
+              <header class="w3-container w3-light-gray">
+                <h2>Quien Soy</h2>
+              </header> 
+              <div class="w3-container">
+                <p id="textQuien">
+                  Un amante de las tecnologías y el diseño con gran entusiasmo y 
+                  motivación en la creación de interfaces donde la 
+                  experiencia de usuarios sea grata y fácil de navegar.
+                </p>
+                <p  id="textQuien">
+                  En mi formación de Ingeniero en Informática descubrí mi afinidad 
+                  con el desarrollo de Front End y la facilidad que me genera realizar 
+                  este tipo de labor, esto no quiere decir que el Back End no sea interesante 
+                  para mí. Es por esto que a la fecha me encuentro realizando una certificación
+                  en Oracle en conjunto con Alura Latam llamada DEV donde estoy fortaleciendo mis
+                  conocimientos como Front End y desarrollando mi lado Back End con java.
+                </p>
+                <p  id="textQuien">
+                  Busco formar parte de una empresa consolidada donde pueda poner en practica mis
+                   conocimientos y a la vez absolver los conocimientos de mis colegas más experimentados 
+                   y equipo de trabajo en general. Que la empresa donde seré un aporte pueda valorar y reconocer 
+                   la entrega que realizare día a día.
+                </p>
+                  
+              </div>
+              <footer class="w3-container w3-light-gray" id="footerQuien">
+                <h3>Conocimientos</h3>
+                <img src="./assets/img/html.png" alt="">
+                <img src="./assets/img/CSS.png" alt="">
+                <img src="./assets/img/JavaScript.png" alt="">
+                <img src="./assets/img/materialize.png" alt="">
+                <img src="./assets/img/Bootstrap.png" alt="">
+                <img src="./assets/img/React.png" alt="">
+                <img src="./assets/img/png-clipartandroid.png" alt="">
+                <img src="./assets/img/api.png" alt="">
+                <img src="./assets/img/sql.png" alt="">
+                <img src="./assets/img/github.png" alt="">
+                <img src="./assets/img/trello.png" alt="">
+                <img src="./assets/img/discord.png" alt="">
+              </footer>
+            </div>
+
+            <!--PORTAFOLIO-->
+            <div id="porta"></div>
+            <br>
+            <br>
+            <br>
+
+            <div class="w3-card-4 w3-white">
+              <header class=" w3-container w3-light-gray">
+                <h2>Portafolio</h2>
+              </header>
+              <div class="w3-container" id="portafolio">
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                    <div class="w3-container w3-center">
+                      <h3>Pagina Web</h3>
+                      <img src="./assets/img/portafolio/portafolio.png" alt="Avatar" style="width:200px; height:100px;">
+                      <h5>Portafolio</h5>
+                      <a class="w3-button w3-green w3-disabled">Ir</a>
+                      <a href="https://github.com/cristopherhurtado/portafolio" class="w3-button w3-black">Code</a>
+                      <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoPortafolio').style.display='block'">Info</a>
+                    </div>
+                </div>
+                <div id="infoPortafolio" class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                      <header class="w3-container w3-deep-purple"> 
+                        <span onclick="document.getElementById('infoPortafolio').style.display='none'"  
+                        class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                        <h3>Portafolio</h3>
+                      </header>
+                      <div class="w3-container" id="descripcion">
+                        <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, JS y W3 </p>
+                        <p><strong>Funcionalidad:</strong> Demostrar proyectos realizados que cuentan con autorizacion para ser compartidos</p>
+                        <p><strong>Observacion:</strong> En este portafolio se muestran proyectos de caracter laboral, profesional y academico</p>
+                      </div>
+                      <footer class="w3-container w3-deep-purple">
+                        <h5>Proyecto Profesional</h5>
+                      </footer>
+                    </div>
+                </div>
+                
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>Pagina Web</h3>
+                    <img src="./assets/img/portafolio/dc.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>Decimal Service</h5>
+                    <a href="https://decimalservice.cl/" class="w3-button w3-green">Ir</a>
+                    <a class="w3-button w3-black w3-disabled">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoDecimal').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoDecimal" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoDecimal').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Decimal Service</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, JS, Bootstrap 4.6 </p>
+                      <p><strong>Funcionalidad:</strong> Informar los servicios que presta DS a sus clientes</p>
+                      <p><strong>Observacion:</strong> Durante el periodo laboral en DS. Una de mis funciones fue el desarrollo de la pagina web</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Laboral</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>Pagina Web</h3>
+                    <img src="./assets/img/portafolio/whx.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>whx</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/whx" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoWhx').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoWhx" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoWhx').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>whx</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, JS y Bootstrap 5</p>
+                      <p><strong>Funcionalidad:</strong> Venta de hosting e servicios informaticos</p>
+                      <p><strong>Observacion:</strong> Pagina web en construccion, pronto sera publicada por cliente </p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Laboral</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>Pagina Web</h3>
+                    <img src="./assets/img/portafolio/cgm.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>CGM Motors</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/cgmMotors.git" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoCgm').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoCgm" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoCgm').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>CGM Motors</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, JS y Bootstrap 5</p>
+                      <p><strong>Funcionalidad:</strong> Presentar los servicios que realiza CGM Motors a sus clientes en una primera etapa</p>
+                      <p><strong>Observacion:</strong> Proximamente pagina web tendra integracion con app web donde los clientes podran agendar asistencia tecnica. 
+                      (El desarrollo de la app esta a mi cargo)</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Laboral</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Android</h3>
+                    <img src="./assets/img/portafolio/emm.png" alt="Avatar" style="width:80px; height:100px;">
+                    <h5>EMM Stgo-Sur</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://www.appcreator24.com/intra/intra.php?idioma=es&idsesion=10fbdg4zym7hpar3iwo8t65q2scjlxv9kune&pag=21&idapp=282817" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoEmm').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoEmm" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoEmm').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>EMM Stgo-Sur</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> appcreator24</p>
+                      <p><strong>Funcionalidad:</strong> Agenda, evangelio del dia, radio online, acceso releventes y diario mural </p>
+                      <p><strong>Observacion:</strong> Esta app no fue desarrollada bajo codigo, sino con un software que entrega appcreator24</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Laboral</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Android</h3>
+                    <img src="./assets/img/portafolio/90.png" alt="Avatar" style="width:80px; height:100px;">
+                    <h5>Radio +90's</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://www.appcreator24.com/intra/intra.php?idioma=es&idsesion=10fbdg4zym7hpar3iwo8t65q2scjlxv9kune&pag=21&idapp=457180" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoRadio').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoRadio" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoRadio').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Radio +90's</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> appcreator24</p>
+                      <p><strong>Funcionalidad:</strong> Transmision de radio online</p>
+                      <p><strong>Observacion:</strong> Esta app no fue desarrollada bajo codigo, sino con un software que entrega appcreator24</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Laboral</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>App Web</h3>
+                    <img src="./assets/img/portafolio/app.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>Envio Email</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/enviarEmail.git" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoEmail').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoEmail" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoEmail').style.display='none'" 
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Envio Email</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS y JS </p>
+                      <p><strong>Funcionalidad:</strong> Funcionalidad de JS para el envio de emails dentro de una app web</p>
+                      <p><strong>Observacion:</strong> Esta funcionalidad puede ser utilizada en cualquier app web</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Academico</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Web</h3>
+                    <img src="./assets/img/portafolio/app.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>Gestion Farmacia</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/farmacia" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoFarmacia').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoFarmacia" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoFarmacia').style.display='none'"
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Gestion Farmacias</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, PHP, Bootstrap y Xampp </p>
+                      <p><strong>Funcionalidad:</strong> Gestion de productos, proveedores, clientes, ventas y usuarios de una farmacia</p>
+                      <p><strong>Observacion:</strong> Aplicacion fue desarrollada con php puro "sin framework" con fines academicos</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Academico</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Web</h3>
+                    <img src="./assets/img/portafolio/app.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>Carrito de Compra</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/carrito.git" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoFarmacia').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoFarmacia" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoFarmacia').style.display='none'"
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Carrito de Compras</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, PHP, Bootstrap y Xampp </p>
+                      <p><strong>Funcionalidad:</strong> Gestion de productos, proveedores, clientes, ventas y usuarios de una farmacia</p>
+                      <p><strong>Observacion:</strong> Aplicacion fue desarrollada con php puro "sin framework" con fines academicos</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Academico</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                 <!--OBJETO PORTAFOLIO-->
+                 <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Web</h3>
+                    <img src="./assets/img/portafolio/app.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>Buscador</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/buscador.git" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoFarmacia').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoFarmacia" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoFarmacia').style.display='none'"
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Gestion Farmacias</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, PHP, Bootstrap y Xampp </p>
+                      <p><strong>Funcionalidad:</strong> Gestion de productos, proveedores, clientes, ventas y usuarios de una farmacia</p>
+                      <p><strong>Observacion:</strong> Aplicacion fue desarrollada con php puro "sin framework" con fines academicos</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Academico</h5>
+                    </footer>
+                  </div>
+                </div>
+
+                <!--OBJETO PORTAFOLIO-->
+                <div class="w3-card-4 w3-light-grey" id="cardMuestra">
+                  <div class="w3-container w3-center">
+                    <h3>APP Android</h3>
+                    <img src="./assets/img/portafolio/app.png" alt="Avatar" style="width:200px; height:100px;">
+                    <h5>ReporService</h5>
+                    <a class="w3-button w3-green w3-disabled">Ir</a>
+                    <a href="https://github.com/cristopherhurtado/reporService.git" class="w3-button w3-black">Code</a>
+                    <a class="w3-button w3-deep-purple" onclick="document.getElementById('infoFarmacia').style.display='block'">Info</a>
+                  </div>
+                </div>
+                <div id="infoFarmacia" class="w3-modal">
+                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                    <header class="w3-container w3-deep-purple"> 
+                      <span onclick="document.getElementById('infoFarmacia').style.display='none'"
+                      class="w3-button w3-display-topright" id="btnCerrar">&times;</span>
+                      <h3>Gestion Farmacias</h3>
+                    </header>
+                    <div class="w3-container" id="descripcion">
+                      <p><strong>Tecnologias utilizadas:</strong> HTML, CSS, PHP, Bootstrap y Xampp </p>
+                      <p><strong>Funcionalidad:</strong> Gestion de productos, proveedores, clientes, ventas y usuarios de una farmacia</p>
+                      <p><strong>Observacion:</strong> Aplicacion fue desarrollada con php puro "sin framework" con fines academicos</p>
+                    </div>
+                    <footer class="w3-container w3-deep-purple">
+                      <h5>Proyecto Academico</h5>
+                    </footer>
+                  </div>
+                </div>
+
+              </div>
+            </div>        
+
+          </div>
+        </div>
+            
+      </div>
+      <!--FOOTER-->
+      <footer class="w3-container" id="footer">
+        <p>Cristopher Hurtado G.  Developer Front End</p>
+        <h6>&copy; Copyright 2022</h6>
+      </footer>
+  
+        
+    
+    <script src="./assets/scripts.js"></script>
+</body>
+</html>
