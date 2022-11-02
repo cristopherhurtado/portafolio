@@ -38,21 +38,29 @@ h2 {
 .whatsapp {
   background: green;
   color: white;
+  border-radius: 5px;
+  margin: 2px;
 }
 
 .linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 5px;
+  margin: 2px;
 }
 
 .github {
     background: #000000;
     color: white;
+    border-radius: 5px;
+    margin: 2px;
   }
 
   .gmail {
     background: red;
     color: white;
+    border-radius: 5px;
+    margin: 2px;
   }
 
 .content {
